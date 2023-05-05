@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+	<div class="container">
+
+		<header>
+			
+			<nav>
+				<h1 class="logo"><a href="#">Portfo<span>lio</span></a></h1>
+
+
+				<!-- Hamburger menu -->
+			    <div class="menu-toggle">
+			        <input type="checkbox" name="">
+			        <span></span>
+			        <span></span>
+			        <span></span>
+			    </div>
+
+				<ul class="navbar">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Me</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Skills</a></li>
+					<li><a href="#">Contact Me</a></li>
+				</ul>
+
+				<a href="#" class="btn">Subscribe</a>
+			</nav>
+
+			<div class="hero">
+				<h3>Hello,  My Name Is</h3>
+				<h2>Maskun <span>Andrianto</span></h2>
+				<p>I am web developer</p>
+				<form action="">
+					<input type="email" placeholder="Enter Your Mail">
+					<input type="submit" value="Lets Start">
+				</form>
+			</div>
+
+		</header>
+
+		<section>
+
+			<div class="section-about">
+				
+				<div class="site-container">
+					<div class="about">
+						<div class="about-img">
+							<img src="img/about.jpg" alt="">
+						</div>
+						<div class="about-content">
+							<h2>About Me</h2>
+							<h3>Developer <span>& Designer</span></h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus quae molestias magnam placeat debitis in quas iste reiciendis quisquam dolorum distinctio minima possimus nihil, praesentium quod deserunt. Eligendi quis tenetur dolore eveniet doloribus repellat minima unde adipisci amet, a praesentium suscipit illum dolorem officia consectetur officiis aut provident magni. Eius reiciendis, esse doloribus temporibus molestiae perspiciatis est tempora asperiores dolorem.</p>
+							<a href="#" class="btn">Lets Talk</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+				
+		</section>	
+
+		<section>
+			<div class="section-service">
+				<div class="site-container">
+					<div class="services">
+						<h2>Our Services</h2>
+						<div class="col">
+							<div class="box">
+								<h3>Web Development</h3>
+								<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, tenetur, obcaecati amet culpa voluptatibus saepe vel nihil consequuntur itaque in!</p>
+								<a href="#" class="btn">Read More</a>
+							</div>
+							<div class="box">
+								<h3>Web Designer</h3>
+								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est eligendi repudiandae vero consequuntur commodi sequi ipsam rem accusamus perferendis?</p>
+								<a href="#" class="btn">Read More</a>
+							</div>
+							<div class="box">
+								<h3>Web Developer</h3>
+								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad laborum, tempora ipsam repudiandae. Beatae repellat ullam quisquam eum. Quas, delectus.</p>
+								<a href="#" class="btn">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="message">
+				<h3>let me get you a beutiful website</h3>
+				<a href="#" class="btn">hire me</a>
+			</div>
+		</section>
+
+
+		<footer>
+			<div class="top">
+				<h3>Maskun Andrianto</h3>
+				<p>For more HTML, CSS, and coding tutorial - please click on the link bellow to subscribe to my channel.</p>
+				<div class="image">
+					<a href="#"><img src="img/yt.png" alt=""></a>
+					<a href="#"><img src="img/fb.png" alt=""></a>
+					<a href="#"><img src="img/ig.png" alt=""></a>
+				</div>
+			</div>
+			<div class="bottom">
+				<span>&copy; copyright @ 2021 by Maskun Andrianto </span>
+			</div>
+		</footer>
+	</div>
+	<script>
+		const menuToggle = document.querySelector('.menu-toggle input');
+		const navbar = document.querySelector('nav .navbar');
+
+		menuToggle.addEventListener('click', function () {
+			navbar.classList.toggle('slide');
+		});
+	</script>
+</body>
+</html>
